@@ -1,0 +1,116 @@
+which language are understand the a computer ?
+
+the computer are only understand a binary language 
+
+
+why python ?
+
+because the python is easy to understand and open sourses 
+
+
+why is easy to understand ?
+
+because python syntax is a like a simple English and we dons not use in python semicolon and carliybrases
+
+
+why python is interrupted programing language ?
+
+because the we doen not complie the code manully the is complie inside the masihin 
+
+
+why python is dyanamically type language ?
+
+because in python we does not define the datatype before the a variable python interrupted are automatically detect it.
+
+
+why python is platfrom independent programming language ?
+
+the python is platfrom independent programing language baecuse the python code easily run in different operation system with any other installation 
+
+
+why python is create the byte code ?
+
+
+the byte is create for the interruter are easily and effiently read the file 
+
+
+why we use the input function ?
+
+
+we input function for giving the input from user and its a bulitin funcation 
+
+
+who many type of the formatting ?
+
+
+there are two type of a formatting we use first is using format() and second is using f sting method 
+
+
+what is open sourse ?
+
+the python is open sourse language because of his sourse code is publically available 
+
+
+what is python ?
+
+the python is a high level , interrupted programing language we use for automation and for developing the web application.
+
+
+why we use the import module 
+
+
+the import module we use for accessing the a method and its attribute one file to anther file we use 
+
+
+why we use the math module ?
+
+
+we use  math module for performing the mathematical operation 
+
+
+
+why we use the help function ?
+
+help function is use for the a show keywords , module and other properties using 
+
+
+who we show the all keywords in python and how many are  keywords in python? 
+
+there are a 35 keywords in python its a Rejered words we can not use as a variable name and function as keyword we use to show the all key words in python using the a help("keywords")
+
+
+what is function ?
+
+the function is a block of code to user call to create his need the function is reduses the reusability of the code .
+
+
+who many type of importing the a module ?
+
+there are a four type of importing the module first is s
+
+
+1. import math 
+2. import math as m
+3. from math import sqrt,factorial,pi
+4. from math import * ---------------------("used for access the all function in math module")
+
+
+what is module ?
+
+the module is already writted file by other developer and we use its function and other properties.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
