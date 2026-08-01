@@ -302,23 +302,132 @@ class count_d:
 ##a.method()
             
 
-print("hi" * 6)
-    
+##print("hi" * 6)
+
+
+class num:
+
+    def loops(self):
+        for i in range(1,11,1):
+            print(i)
+
+
+##
+##a = num()
+##a.loops()
+
+
+
+##class reverse:
+##
+##    def reverse(self):
+##        for i in range(11,1,-1):
+##            print(i)
+##
+##c = reverse()
+##c.reverse()
+
+
+class even:
+
+    def even_no(self):
+        for i in range(1,20,2):
+            print(i)
+
+
+##e = even()
+##e.even_no()
+
+
+
+##class odd_no:
+##
+##    def odd(self):
+##        for i in range(1,30,3):
+##            print(i)
+##
+##a = odd_no()
+##a.odd()
+
+class multi:
+   
+    def mul(self,num):
+        for i in range(1,11):
+            print(num*i)
+
+
+##a = multi()
+##a.mul(5)
+
+
+class star:
+
+    def star_p(self):
+        for i in range(1,6,1):
+            print(str(i) * i)
+
+##a = star()
+##
+##a.star_p()
+
+
+class A:
+
+    def just(self):
+        for i in range(7,1,-1):
+            for j in range(i):
+                print(i ,end="")
+
+            print()
+
+
+##a = A()
+##a.just()
+
+
+class A:
+
+
+    def d(self):
+
+        for i in range(1,6,1):
+            for j in range(i):
+                print("*",end="")
+
+            print()
+
+##a = A()
+##a.d()
 
 
 
 
+name = "python"
+
+class A:
+
+    def B(self):
+
+        for i in range(5,1,-1):
+            print(name[i])
+
+##a = A()
+##a.B()
+
+class c:
+
+    name1 = "roshan pardeshi"
+
+    def info():
+        print(c.name1)
+
+    def details(self):
+        print(self.name)
 
 
-
-
-
-
-
-
-
-
-
+a = c()
+a.name = "roshan"
+a.details()
 
 
 
