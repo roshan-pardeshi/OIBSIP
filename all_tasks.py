@@ -478,243 +478,505 @@ def add(a,b):
 
 
 ##add(20,200)
-
-
-##for i in range(1,6):
-##    print(str(i) * i)
-    
-def square(num):
-    num1 = num * num 
-    print("the square is a:-",num1)
-
-
-##square(5)
-
-
-##def per(total_marks,obtained_m):
-##    f = obtained_m / total_marks * 100
-##
-##    print("percentage is A:-",f)
-##
-##per(720,710)
-
-
-
-##def sum1(a,b):
-##    c = a+b
-##    return c
-##
-##e = sum1(12,34)
-##e()
-
-##def add():
-##    a = 10
-##    b = 20
-##    c = a+b
-##    return c
 ##
 ##
-##a1 = add()
-##
-##print(a1)
-##
-##
-
-
-##def sub(a,b):
-##
-##    c = a+b
-##
-##    return c
-##
-##a = sub(20,34)
-##
-##print(a)
-
-
-
+####for i in range(1,6):
+####    print(str(i) * i)
+##    
 ##def square(num):
-##
-##    return num * num
-##
-##
-##s = square(5)
-##
-##print(s)
-
-
-def bmi(w,l):
-    f = l*l
-    
-    return w * f
-
-
-##b = bmi(10,20)
-##print((b))
-
-
-
-##def avg(num,num1,num2):
-##    return num + num1 + num2 /3
+##    num1 = num * num 
+##    print("the square is a:-",num1)
 ##
 ##
-##a = avg(12,34,55)
+####square(5)
 ##
-##print(a)
-
-
-
-def per(total_m,obtained_m):
-    return obtained_m / total_m * 100
-
-
-##a = per(720,710)
-##print(a)
-
-
+##
+####def per(total_marks,obtained_m):
+####    f = obtained_m / total_marks * 100
+####
+####    print("percentage is A:-",f)
+####
+####per(720,710)
+##
+##
+##
+####def sum1(a,b):
+####    c = a+b
+####    return c
+####
+####e = sum1(12,34)
+####e()
+##
+####def add():
+####    a = 10
+####    b = 20
+####    c = a+b
+####    return c
+####
+####
+####a1 = add()
+####
+####print(a1)
+####
+####
+##
+##
+####def sub(a,b):
+####
+####    c = a+b
+####
+####    return c
+####
+####a = sub(20,34)
+####
+####print(a)
+##
+##
+##
+####def square(num):
+####
+####    return num * num
+####
+####
+####s = square(5)
+####
+####print(s)
+##
+##
+##def bmi(w,l):
+##    f = l*l
+##    
+##    return w * f
+##
+##
+####b = bmi(10,20)
+####print((b))
+##
+##
+##
+####def avg(num,num1,num2):
+####    return num + num1 + num2 /3
+####
+####
+####a = avg(12,34,55)
+####
+####print(a)
+##
+##
+##
+##def per(total_m,obtained_m):
+##    return obtained_m / total_m * 100
+##
+##
+####a = per(720,710)
+####print(a)
+##
+##
+####def func(m1,m2,m3,m4,m5):
+####    return m1+m2+m3+m4+m5
+####
+####
+####d = func(20,30,34,45,65)
+####
+####
+####print(d)
+##
 ##def func(m1,m2,m3,m4,m5):
-##    return m1+m2+m3+m4+m5
+##    return m1+m2+m3+m4+m5 / 5
 ##
 ##
-##d = func(20,30,34,45,65)
+####s = func(30,40,50,65,65)
+####
+####print(s)
 ##
 ##
-##print(d)
-
-def func(m1,m2,m3,m4,m5):
-    return m1+m2+m3+m4+m5 / 5
-
-
-##s = func(30,40,50,65,65)
+##def basic_salary(salary,hra,da):
 ##
-##print(s)
-
-
-def basic_salary(salary,hra,da):
-
-    total = salary + hra + da
-
-    return total
-
-
-##a = basic_salary(10000,234,43)
+##    total = salary + hra + da
 ##
-##print(a)
-
-
-def gst(salary):
-
-    s = salary + (salary * 18) / 100
-
-    return s
-
-
-##a = gst(100)
-##print(a)
-
-
-def circumfrance(r):
-
-    return 2 * (pi * r)
-
-
-##s = circumfrance(20)
-##print(s)
-
-
-def greeting():
-    def message():
-        print("welcome in python")
-
-    return message
-
-
-##a = greeting()
-##a()
-
-
-def college():
-    def depart():
-        print("computer department")
-
-    return depart
-
-##a = college()
+##    return total
 ##
-##a()
+##
+####a = basic_salary(10000,234,43)
+####
+####print(a)
+##
+##
+##def gst(salary):
+##
+##    s = salary + (salary * 18) / 100
+##
+##    return s
+##
+##
+####a = gst(100)
+####print(a)
+##
+##
+##def circumfrance(r):
+##
+##    return 2 * (pi * r)
+##
+##
+####s = circumfrance(20)
+####print(s)
+##
+##
+##def greeting():
+##    def message():
+##        print("welcome in python")
+##
+##    return message
+##
+##
+####a = greeting()
+####a()
+##
+##
+##def college():
+##    def depart():
+##        print("computer department")
+##
+##    return depart
+##
+####a = college()
+####
+####a()
+##
+##
+##def add(a,b):
+##    def addition():
+##        print(a+b)
+##    return addition
+##
+##
+####a = add(23,34)
+####
+####a()
+##
+##def details():
+##    def python():
+##        print("hello python")
+##
+##    def java():
+##        print("hello java")
+##
+##    return python,java
+##
+####a,b = details()
+####
+####a()
+####b()
+##
+##
+##def all_a():
+##
+##    def add(a,b):
+##        print(a+b)
+##
+##    def sub(a,b):
+##        print(a-b)
+##
+##    def mul(a,b):
+##        print(a*b)
+##
+##    def div(a,b):
+##        print(a/b)
+##
+##    return add,sub,mul,div
+##
+##
+####a,b,c,d = all_a()
+####a(2,3)
+####b(23,34)
+####c(234,444)
+####d(123,321)
+####e(123,23)
+##
+##
+##
+##
+##class A:
+##
+##    def B():
+##        print("hello")
+##
+##        def E():
+##            print("hello guyss")
+##
+##        return E
+##
+##    def C(self):
+##        print("sonu pardeshi")
+##
+####a = A()
+####
+####A.C(a)
+####
+####s=A.B()
+####s()
+
+
 
 
 def add(a,b):
-    def addition():
-        print(a+b)
-    return addition
+    print("addition",a+b)
+
+##add(20,34)
 
 
-##a = add(23,34)
+
+##def add():
+##    a = int(input("enter 1:="))
+##    b = int(input("enter 2:-"))
+##
+##    return "addition",a+b
+##
+##
+##a1 = add()
+##print(a1)
+
+##i=9
+##print(i * 5)
+
+
+
+
+
+def square(num):
+    print("hell")
+    def square_root():
+        print("hii")
+        d = num * num
+        print(d)
+
+    return square_root
+
+
+##d = square(7)
+##d()
+##print((d))
+
+
+def all_off(a,b):
+
+    def add():
+        print(f"addition is a:=",a+b)
+
+    def sub():
+        print("subtraction is a:=",a-b)
+
+    def mul():
+        print("multiplication is a:=",a*b)
+
+    def div():
+        print("division is a=",a/b)
+
+        def power():
+            print("power function is a run")
+
+        return power
+
+    def square():
+        d = a * a
+        print("square is a",d)
+
+    return add,sub,mul,div,square
+
+
+##c,d,e,f,g = all_off(10,20)
+##c()
+##d()
+##e()
+##w=f()
+##w()
+##g()
+
+
+
+def salary(basic):
+    def gross_salary():
+        salary_increae = basic + (basic * 10)/100
+        print("gross salary is a:-",salary_increae)
+
+    return gross_salary
+
+
+##s=salary(2000)
+##
+##
+##s()
+
+
+def dis(price):
+    def total_p():
+        print("the total price after discount")
+
+
+        pr = price - (price * 10) / 100
+
+        print("after discount price is a",pr)
+
+    return total_p
+
+
+##a = dis(100)
 ##
 ##a()
-
-def details():
-    def python():
-        print("hello python")
-
-    def java():
-        print("hello java")
-
-    return python,java
-
-##a,b = details()
-##
-##a()
-##b()
-
-
-def all_a():
-
-    def add(a,b):
-        print(a+b)
-
-    def sub(a,b):
-        print(a-b)
-
-    def mul(a,b):
-        print(a*b)
-
-    def div(a,b):
-        print(a/b)
-
-    return add,sub,mul,div
-
-
-##a,b,c,d = all_a()
-##a(2,3)
-##b(23,34)
-##c(234,444)
-##d(123,321)
-##e(123,23)
-
 
 
 
 class A:
 
-    def B():
-        print("hello")
+    def st():
+        print("hello i am static method")
 
-        def E():
-            print("hello guyss")
+    def no_st(self):
+        print("hello i am non staic method")
 
-        return E
 
-    def C(self):
-        print("sonu pardeshi")
 
 ##a = A()
+##a.no_st()
+##A.st()
+
+
+class A:
+
+    a = 10
+
+    def st():
+        print(a1.a)
+
+    def no_st(self):
+        print(self.a)
+
+
+##a1 = A()
+##a1.no_st()
+##A.st()
+
+
+
+
+class student:
+
+    student_name = "roshan"
+    student_course = "data science"
+    student_address = "kasba peth pune"
+    
+    def static():
+        print(a.student_name)
+        print(a.student_course)
+        print(a.student_address)
+
+    def non_statics(self):
+
+        print(self.student_n)
+        print(self.student_a)
+        print(self.student_c)
+
+
+
+##a  = student()
+##student.static()
+##a.student_n = "sonu pardeshi"
+##a.student_a = "kusumba tal dist :- dhule"
 ##
-##A.C(a)
+##a.student_c = "python "
 ##
-##s=A.B()
-##s()
+##a.non_statics()
+
+
+class A:
+
+    def st():
+        print("hello")
+
+    def no(self):
+        print("golu ye to run ho gya ")
+        A.st()
+
+
+##a = A()
+##a.no()
+
+
+class A:
+
+    def st():
+        print("first static method")
+
+    def st2():
+        print("static second")
+
+        A.st()
+
+
+##A.st2()
+
+
+
+class A:
+
+
+    def sonu(self):
+        print("hello i am runinng")
+
+
+##a = A()
+##A.sonu(a)
+
+
+##import math  as m
+##
+##print(m.sqrt(5))
+##print(m.factorial(5))
+##print(m.pi)
+##
+##x = 10
+##y = 12
+##
+##print(m.remainder(x,y))
+
+
+
+##from math import pi,sqrt,factorial
+##
+##print(sqrt(5))
+##print(factorial(5))
+##
+##print(pi)
+
+##from math import *
+##
+##
+##print(sqrt(6))
+##
+##print(factorial(5))
+
+
+
+def add(a,b):
+    print("hellow i just check :-")
+    z = a+b
+    return z
+
+
+##e = add(20,23)
+##print((e))
+
+import keyword
+
+print(keyword.kwlist)
+
+
+
+
+
+
+
+
 
 
 
