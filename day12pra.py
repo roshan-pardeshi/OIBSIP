@@ -6,9 +6,9 @@
 def greeting():
     def message():
         print("welcome to python")
-
-    message()
-
+##
+##    message()
+##
 ##greeting()
 
 
@@ -307,16 +307,125 @@ def m1():
 
 
 
-def  m1():
-    print("hello")
+##def  m1():
+##    print("hello")
+##
+##def m2(a):
+##    print("roshan")
+##
+##
+##
+##a = m1()
+##a()
 
-def m2(a):
-    print("roshan")
+
+
+##print("1.deposit\n2.withdraw \n3.check balacnce")
+##
+####choice = int(input("enter your choice"))
+##
+##balance = int(input("enter your account balance"))
+##
+##while balance>0:
+##    choice = int(input("enter your choice"))
+##
+##
+##    match(choice):
+##        case 1:
+##            deposit=int(input("depost amount"))
+##            balance+=deposit
+##
+##            print(balance)
+##
+##        case 2:
+##            withdraw = int(input("enter your withdraw amount"))
+##            balance-=withdraw
+##            print(balance)
+##
+##        case 3:
+##            print(balance)
+##
+##        case _:
+##            print("invalid choice")
 
 
 
-a = m1()
-a()
+
+
+
+
+
+
+print("1.creadit card \n2.debit card\n3.upi \n4.cash")
+
+
+choice=int(input("enter your choice:--"))
+
+rm = input("select your payment mode cc.dt.upi.cash")
+
+price = int(input("enter your shopping price"))
+
+match(choice):
+    case 1:
+        if rm == 'cc':
+            total_bill = price - (price * 15)/100
+            print("the total discount use by cc paymnet is a:=",total_bill)
+        else:
+            print("no discount1")
+
+    case 2:
+        if rm == 'dt':
+            total_bill = price - (price * 10)/100
+            print("the total discount use by dt paymnet is a:=",total_bill)
+        else:
+            print("no discount2")
+
+    case 3:
+        if rm == 'upi':
+            total_bill = price - (price * 5)/100
+            print("the total discount use by upi paymnet is a:=",total_bill)
+        else:
+            print("no discount3")
+
+    case 4:
+        if rm == 'cash':
+            total_bill = price - (price * 1)/100
+            print("the total discount use by cash paymnet is a:=",total_bill)
+        else:
+            print("no discount")
+
+    case _:
+        print("not valid choice")
+
+        
+
+
+
+    
+
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
