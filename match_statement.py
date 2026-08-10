@@ -151,52 +151,110 @@
 ##
 
 
-print("1.qurants-1\n2.qurants-2\n3.qurants-3\n4.qurants-4")
+##print("1.qurants-1\n2.qurants-2\n3.qurants-3\n4.qurants-4")
+##
+##
+##choice = int(input("enter your choice"))
+##
+##
+##num = int(input("enter the number"))
+##
+##num2 = int(input("enter the number"))
+
+##
+##match(choice):
+##    case 1:
+##        if num>0 and num2>0:
+##            print("the number in first qurants")
+##        else:
+##            print("not in first qurants")
+##        
+##    case 2:
+##        if num<0 and num2>0:
+##            print("the number in second qurants")
+##        else:
+##            print("not in second qurants")
+##            
+##    case 3:
+##        if num<0 and num2<0:
+##            print("the number in third qurants")
+##        else:
+##            print("the number is not third qurants")
+##    case 4:
+##        if num>0 and num2<0:
+##            print("the number in fourth qurants")
+##        else:
+##            print("the number is not in fourth qurants")
+##            
+##    case _:
+##        print("invalid choice")
+##
+##
 
 
-choice = int(input("enter your choice"))
 
 
-num = int(input("enter the number"))
+print("Welcome to the ATM")
+print("Plz enter yout card")
 
-num2 = int(input("enter the number"))
+print("**********Select\n1:-[Depoit]\n2:-[Withdraw]\n3:-[Check the account balance]**********")
 
+##choice = int(input("enter your choice"))
 
-match(choice):
-    case 1:
-        if num>0 and num2>0:
-            print("the number in first qurants")
-        else:
-            print("not in first qurants")
+pin = int(input("Enter your ATM Pin::===="))
+
+saving_balance = 10000
+current_account_balance = 20000
+account_type = input("Select your account type [Saving] , [Current]::==")
+
+set_pin = 2006
+while (current_account_balance>0 and saving_balance>0):
+    choice = int(input("enter your choice"))
+    match(choice):
+        case 1:
+            if pin == set_pin:
+                if account_type=='saving':
+                    deposit_amount = float(input("Enter the deposit amount"))
+                    saving_balance+=deposit_amount
+                    print("After deposit the amount on  your [Saving Account]  total balance is a:--",saving_balance)
+                elif account_type == "current":
+                    deposit_amount = float(input("Enter the Deposit Amount::=="))
+                    current_account_balance+=deposit_amount
+                    print("After deposit the amount your [Current Account] total balance is a:--",current_account_balance)
+                else:
+                    print("Your account choice is wrong")
+            else:
+                print("Your pin is a wrong")
+                    
+
+        case 2:
+            if pin == set_pin:
+                if account_type =="saving":
+                    withdraw_amount = float(input("Enter the Withdraw Amount"))
+                    saving_balance-=withdraw_amount
+                    print("After withdraw the amount OF your [Saving Account] total balance is a:--",saving_balance)
+                elif account_type =="current":
+                    withdraw = float(input("enter the withdraw amount::=="))
+                    current_account_balance-=withdraw
+                    print("After withdraw the amount of  your [Current Account] total balance is a",current_account_balance)
+                else:
+                    print("You have wrong choice of your account type")
+            else:
+                print("Wrong pin detect")
+
+        case 3:
+            if pin==set_pin:
+                if account_type =="saving":
+                    print("Your Total balance of Saving Account is a:--",saving_balance)
+                else:
+                    print("Your Current Account Balance is a",current_account_balance)
+            else:
+                print("Wrong pin detect")
+
+        case _:
+            print("Plz select the a curect option")
+
         
-    case 2:
-        if num<0 and num2>0:
-            print("the number in second qurants")
-        else:
-            print("not in second qurants")
-            
-    case 3:
-        if num<0 and num2<0:
-            print("the number in third qurants")
-        else:
-            print("the number is not third qurants")
-    case 4:
-        if num>0 and num2<0:
-            print("the number in fourth qurants")
-        else:
-            print("the number is not in fourth qurants")
-            
-    case _:
-        print("invalid choice")
-
-
-
-
-
-
-
-
-
 
 
 
