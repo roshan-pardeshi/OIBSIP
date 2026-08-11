@@ -750,24 +750,28 @@ class all_op:
 ##i(100,10,1)
 
 
+##
+##
+##import keyword as k
+##
+##
+####print(k.kwlist)
+##
+##import math as m
+##
+##print(print.__module__)
+##
+##
+##
 
-
-import keyword as k
-
-
-##print(k.kwlist)
-
-import math as m
-
-print(print.__module__)
-
-
-
-
-
-
-
-
+##
+##
+##x = 15
+##y =4
+##
+##print(x//y)
+-##print(x%y)
+##
 
 
 

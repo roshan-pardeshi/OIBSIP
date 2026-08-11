@@ -13,7 +13,7 @@
 ##
 ##    def circumfrance(radius):
 ##        a = 2*pi*radius
-##        print("circumfrance of the circle is a:-",a)
+##        print("circumfrat nce of the circle is a:-",a)
 ##        
 ##
 ##    def salary(basic):
