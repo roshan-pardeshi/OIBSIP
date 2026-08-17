@@ -510,55 +510,55 @@
 ##
 
 #A
-for i in range(0,5):
-    for j in range(0,5):
-        if i==0 or i==3 or j==0 or j==4:
-            print( "*",end="")
-            
-        else:
-            print(" ",end="")
-
-    print(" ")
-
-print("\n")
-
-#T
-for i in range(1,6,1):
-    for j in range(0,5):
-        if i==1 or j==2:
-            print("*",end="")
-
-        else:
-            print(" ",end="")
-
-    print()
-
-print("\n")
-
-
-#H
-
-for i in range(0,5,1):
-    for j  in range(0,5,1):
-        if i==2 or j==0 or j==4:
-            print("*",end="")
-        else:
-            print(" ",end="")
-
-    print()
+##for i in range(0,5):
+##    for j in range(0,5):
+##        if i==0 or i==3 or j==0 or j==4:
+##            print( "*",end="")
+##            
+##        else:
+##            print(" ",end="")
+##
+##    print(" ")
+##
+##print("\n")
+##
+###T
+##for i in range(1,6,1):
+##    for j in range(0,5):
+##        if i==1 or j==2:
+##            print("*",end="")
+##
+##        else:
+##            print(" ",end="")
+##
+##    print()
+##
+##print("\n")
+##
+##
+###H
+##
+##for i in range(0,5,1):
+##    for j  in range(0,5,1):
+##        if i==2 or j==0 or j==4:
+##            print("*",end="")
+##        else:
+##            print(" ",end="")
+##
+##    print()
 
 #u
-print("\n")
-for i in range(0,5):
-    for j in range(0,5):
-        if i==4 or j==0 or j==4:
-            print("*",end="")
-        else:
-            print(" ",end="")
-
-    print()
-
-
+##print("\n")
+##for i in range(0,5):
+##    for j in range(0,5):
+##        if i==4 or j==0 or j==4:
+##            print("*",end="")
+##        else:
+##            print(" ",end="")
+##
+##    print()
+##
+##
 
 
 
@@ -671,3 +671,119 @@ for i in range(0,5):
 ##
 ##
 ##
+
+
+
+
+
+##st = "python"
+##
+##st1 = "cython"
+##
+##count = ""
+##for i in range(0,len(st),1):
+##    if len(st)==len(st1):
+##        if st[i] in st1:
+##            count+=st[i]
+##
+##print(count)
+
+
+##      0123
+##st = "programming"
+##
+##count = 0
+##for i in range(0,len(st),1):
+##    if st[i]=="g":
+##        count=i
+##        break
+##
+##print(count)
+##
+
+
+
+
+##st = "listsn"
+##
+##st1 = "silent"
+##
+##for i in range(0,len(st),1):
+##    if st[i] in st1:
+##        print("amstrong")
+##
+##
+
+
+##st = "aaabbcdd"
+##
+##
+##for i in range(0,len(st),1):
+##    count=st.count(st[i])
+##    if count==1:
+##        print(st[i])
+##
+##
+
+
+##st = "python is easy"
+##st=st.split()
+##count=""
+##for i in range(0,len(st),1):
+##    if len(st[i])>0:
+##        count += st[i][::-1]
+##
+##print(count,end=" ")
+
+
+##st = "python#@3123"
+##count=0
+##
+##for i in range(0,len(st)):
+##    if st[i].isalpha() or st[i].isdigit():
+##        pass
+##    else:
+##        count+=1
+##
+##print(count)
+##               
+
+##st = "python#23!#$"
+##
+##
+##count = ""
+##
+##for i in range(0,len(st)):
+##    if st[i].isalpha() or st[i].isdigit():
+##        count+=st[i]
+##
+##
+##print(count)
+##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
