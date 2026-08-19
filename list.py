@@ -286,22 +286,22 @@
 ##        print("even number :---",d)
 ##
 ##
+####
 ##
-
-
-
-li = [1,2,3,4,22,344,22,2,1,3]
-li2 = [0]
-for i in range(0,len(li),1):
-    if li[i] in li2:
-        pass
-    else:
-        li2.append(li[i])
-        
-
-print(li2)
-##    
-
+##
+##
+##li = [1,2,3,4,22,344,22,2,1,3]
+##li2 = [0]
+##for i in range(0,len(li),1):
+##    if li[i] in li2:
+##        pass
+##    else:
+##        li2.append(li[i])
+##        
+##
+##print(li2)
+####    
+##
 
 ##print(li[::-1])
 ##
@@ -315,6 +315,372 @@ print(li2)
 ##li.extend(li2)
 ##
 ##print(li[10:15])
+
+
+
+##
+##for i in range(0,6,1):
+##    print(" "*(5-i),"*"*((2*i)-1))
+##
+##for i in range(5,0,-1):
+##    print(" "*(6-i),"*"*((2*i)-3))
+
+
+##
+##for i in range(0,5,1):
+##    for j in range(0,4,1):
+##        if i==0 or i==4 or j==0 or j==3:
+##            print(" "*(4-i),"*",end="")
+##        else:
+##            print(" ",end="")
+##
+##    print()
+##
+##
+####
+##for i in range(0,5,1):
+##    for j in range(0,5,1):
+##        print("*",end="")
+##
+##    print()
+##
+##
+##
+##
+####
+##for i in range(1,5,1):
+##    print(" "*i,"*"*5)
+##
+
+
+
+
+
+
+
+##def prime(n):
+##    num=n
+##    factor=0
+##
+##    for i in range(2,num-1,1):
+##        if num%2==0:
+##            factor+=1
+##
+##    if factor==0:
+##        print(f"prime number {num}")
+##    else:
+##        print("not a prime number------------------",num)
+##
+##
+##
+##for i in range(1,100,1):
+##    prime(i)
+##
+
+
+
+##
+##num = 121
+##
+##rev = 0
+##
+##no = num
+##
+##while (no>0):
+##    a = no%10
+##    rev = rev * 10 +a
+##    no = no//10
+##
+##
+##if rev == num:
+##    print("the number is palindrome",no,rev)
+##else:
+##    print("the number is not palindrome")
+##
+##print("hii")
+
+
+
+##
+##
+##num = 370
+##
+##
+##cube = 0
+##
+##
+##no = num
+##
+##
+##for i in range(1,num+1,1):
+##    a = no%10
+##    cube = cube * a**a
+##    no = no//10
+##
+##if cube==no:
+##    print("amstrong number",cube)
+##else:
+##    print("not amstrong number")
+
+
+
+
+
+
+
+
+##
+##st = "aaccbbdssdsssssssssssssiaaaaaaaaaaaa"
+##
+##
+##count=0
+##for i in range(0,len(st),1):
+##    count = st.count(st[i])
+##    if count==1:
+##        print(st[i])
+##
+##
+##333
+####
+##st = "programming"
+##
+##
+##for i in range(0,len(st),1):
+##    if st[i]=="g":
+##        count=i
+##        break
+##
+##
+##print(count)
+
+
+##st = "aaaa bbbbb cccccc"
+##count=0
+##index=0
+##for i in range(0,len(st),1):
+##    for j in range(0,len(st[i]),1):
+##        count=len(st[i])
+##
+##        if len(st[i])>count:
+##            index=i
+##
+##		
+##print(count)
+##print(index)
+##
+
+##
+##print(st.count("a"))
+##        
+##
+##for i in range(0,len(st),1):
+##    if len(st[i])==3:
+##        print(st[i].startswith("a"),end="")
+
+
+
+
+
+##st = "python"
+##
+##st1 = "cyton"
+##
+##count=""
+##for i in range(0,len(st),1):
+##    if len(st)==len(st1):
+##        if st[i] in st1:
+##             count=st[i]
+##             print(count,end="")
+##    else:
+##        print("your sting len is not same")
+##        break
+##
+
+
+##
+##st = "listen"
+##st1 = "slent"
+##master=True
+##for i in range(0,len(st),1):
+##    if st[i] not in st1:
+##        master=False
+##
+##
+##if master==True:
+##    print("the word")
+##else:
+##    print("not words")
+
+
+
+
+st = "python1233"
+
+print(st.isdigit())
+print(st.isalnum())
+
+print(st.upper())
+print(st.lower())
+print(st.startswith("p"))
+print(st.endswith("3"))
+
+print(st.count("3"))
+
+print(st.isalpha())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
