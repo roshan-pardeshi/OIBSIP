@@ -154,18 +154,18 @@
 ##    print(" "*(5-i),"*"*5)
 ##
 
-
-
-
-for i in range(3,4,1):
-    print("\n")
-    print(" "*(7-i),"*"*(2*i))
-
-
-for i in range(4,0,-1):
-    print(" "*(8-i),"*"*((2*i)-3))
-
 ##
+##
+##
+##for i in range(3,4,1):
+##    print("\n")
+##    print(" "*(7-i),"*"*(2*i))
+##
+##
+##for i in range(4,0,-1):
+##    print(" "*(8-i),"*"*((2*i)-3))
+##
+####
 ##for i in range(4,5,1):
 ##    print("*"*i,end="")
 ##

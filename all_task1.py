@@ -134,15 +134,120 @@ name = "Roshan vijay pardeshi"
 
 ##for i in range(65,90+1,1
 ##    if 
+##
+##
+##
+##a = chr(i)
+##for i in range(0,len(name),1):
+##    if chr(i)>=65:
+##        print(i)
+##    else:
+##        print("not")
 
 
 
-a = chr(i)
-for i in range(0,len(name),1):
-    if chr(i)>=65:
-        print(i)
-    else:
-        print("not")
+##li = [[1,2,3],
+##      [4,5,6],
+##      [7,8,9]]
+##sum=0
+##
+##for i in range(0,len(li),1):
+##    for j in range(0,len(li[i]),1):
+##        if i==j:
+##            sum+=li[i][j]
+##
+##print(sum)
+
+##sum=0
+##
+##tu = ((1,2,3),(4,5,6),(7,8,9))
+##
+##for i in range(0,len(tu),1):
+##    for j in range(0,len(tu[i]),1):
+##        if i==j:
+##            sum+=tu[i][j]
+##
+##print(sum)
+
+
+##st = "roshan"
+##
+##print(len(st))
+
+
+##
+##li = [1,2,3,4,4,5]
+##
+##li1=[]
+##i=0
+##for i in range(0,len(li),1):
+##    if li[i] not in li1:
+##        li1.append(li[i])
+##
+##print(li1)
+
+
+def perfect_number(num):
+    n = num
+
+    count  = 0
+
+    for i in range(1,n,1):
+        if num%i==0:
+            count+=i
+
+    if count==num:
+        print("perfect number",num)
+
+
+for i in range(1,2000,1):
+    perfect_number(i)
+            
+
+
+
+
+
+
+
+
+
+a = 0
+b = 1
+num=5
+for i in range(1,num+1,1):
+    print(a)
+    c = a+b
+    a=b
+    b=c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

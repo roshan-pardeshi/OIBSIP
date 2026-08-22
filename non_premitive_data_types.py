@@ -195,18 +195,27 @@ print(number)
 ##
 ##
 ##print(count)
-
-li1 = [1,2,3,4,"roshan"]
-li2 = ["roshan","sonu",123]
-
-li1.extend(li2)
-print(li1)
-
-
-
+##
+##li1 = [1,2,3,4,"roshan"]
+##li2 = ["roshan","sonu",123]
+##
+##li1.extend(li2)
+##print(li1)
+##
 
 
+new = 28
 
+count=0
+
+for i in range(0,new+1,1):
+    if new%i==0:
+        count+=i
+
+if count==new:
+    print("the number is a perfect")
+else:
+    print("not perfect")
 
 
 
