@@ -112,6 +112,8 @@ from day11 import *
 
 print(accepts(120))
 
+num = 
+
 
 
 
