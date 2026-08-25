@@ -1,79 +1,258 @@
-###print("hello")
+#####print("hello")
+####
+####
+####a=10
+#####b=10
+####
+#####print(a+b)
+#####print(a-b)
+#####print(a*b)
+#####print(a/b)
+####
+####
+####a=10
+####
+####
+####
+#####if a%2==1:
+####  #  print("prime")
+#####else:
+####    #print("not")
+####
+####
+#####a=10
+#####b=20
+####
+#####for i in range (2):
+####    #a=a^b
+####    #b=a^b
+####   # c=a^b
+####
+#####print(a)
+#####print(b)
+####
+####
+####
+####
+####a=10
+####b=20
+####
+####print(a//b)
+####
+#####a=0
+#####b=1
+#####n=int(input("enter the number"))
+####
+#####for i in range (n):
+####    #print(a)
+####    #c=a+b
+####   # a=b
+####    #b=c
+####
+####num = int(input("Enter a number: "))
+####
+####original = num
+####reverse = 0
+####
+####while num > 0:
+####    digit = num % 10
+####    reverse = reverse * 10 + digit
+####    num = num // 10
+####
+####if original == reverse:
+####    print("Palindrome Number")
+####else:
+####    print("Not a Palindrome Number")
+####
+##
+####from all_tasks import *
+####
+####
+####print("hellow dosto")
+####
+####
+####e = add(20,23)
+####print((e))
+####
+####print("hellow i am run second ")
 ##
 ##
-##a=10
-###b=10
-##
-###print(a+b)
-###print(a-b)
-###print(a*b)
-###print(a/b)
 ##
 ##
-##a=10
+##from Student import Student
+##
+##print("1.add paient\n2.remove paient 3.exit")
+##
+####a = input("paient add paient remove")
+##c = []
+##while True:
+##    a = input("paient add paient remove")
+##    if a==" add":
+##
+##        li=[]
+##        n = int(input("enter the number"))
 ##
 ##
-##
-###if a%2==1:
-##  #  print("prime")
-###else:
-##    #print("not")
-##
-##
-###a=10
-###b=20
-##
-###for i in range (2):
-##    #a=a^b
-##    #b=a^b
-##   # c=a^b
-##
-###print(a)
-###print(b)
+##        for i in range(n):
+##            a = Student(int(input("enter the rollno:-")),input("enter the name"))
+##            li.append(a) 
 ##
 ##
 ##
+##        for i in li:
+##            print(i)
 ##
-##a=10
-##b=20
+##    elif a==" remove":
+##        roll_number = int(input("enter the roll number of the paient"))
+####        li= li.split()
+##        for i in range(0,len(li),1):
+##            if li[i]==roll_number:
+##                li.remove(li[i])
 ##
-##print(a//b)
+##        print(li[i])
+##            
+##    elif a==" show":
+##        for i in li:
+##            print("currently add student",i.rollno,"currently add the name",i.name)
+####            print(i.name)
+
+
+
+
 ##
-###a=0
-###b=1
-###n=int(input("enter the number"))
+##class A:
 ##
-###for i in range (n):
-##    #print(a)
-##    #c=a+b
-##   # a=b
-##    #b=c
+##    def __init__(self,rollno,name,age):
+##        self.rollno = rollno
+##        self.name = name
+##        self.age = age
 ##
-##num = int(input("Enter a number: "))
 ##
-##original = num
-##reverse = 0
+##    def __str__(self):
 ##
-##while num > 0:
-##    digit = num % 10
-##    reverse = reverse * 10 + digit
-##    num = num // 10
+##        return f"Roll_number:-{self.rollno} Name:-{self.name} age :-{self.age}"
 ##
-##if original == reverse:
-##    print("Palindrome Number")
+##
+##
+##
+##n = int(input("enter the how many user you add in the given method:-"))
+##
+##li=[]
+##
+##for i in range(n):
+##    a = A(int(input("enter the Rollno:-")),input("enter the a name:-"),int(input("enter the a age")))
+##    li.append(a)
+##
+##user = input("enter")
+##
+##l = 0
+##for i in li:
+##    if user=="remove":
+##        li.remove(li[l])
+##        print(li)
+##    else:
+##        print(i)
+##        
+
+
+
+##
+##li = []
+##
+##
+##a = input("enter the name")
+##
+##
+##
+##
+##for i in range(len(a)-1,-1,-1):
+##    print(a[i],end="")
+
+
+
+##
+##num = 15
+##
+##
+##num = str(num)
+##
+##
+##if num==num[::-1]:
+##    print("palindrome")
 ##else:
-##    print("Not a Palindrome Number")
+##    print("not palindrome")
 ##
 
-from all_tasks import *
 
 
-print("hellow dosto")
 
 
-e = add(20,23)
-print((e))
 
-print("hellow i am run second ")
 
-    
+
+
+
+li = "roshan pardeshi"
+
+
+for i in range(0,len(li),1):
+    print(li[i][::-1],end="")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
