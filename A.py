@@ -192,29 +192,49 @@
 
 
 
-li = "roshan pardeshi"
-
-
-for i in range(0,len(li),1):
-    print(li[i][::-1],end="")
-
-
-
-
-
+##li = "roshan pardeshi"
+##
+##
+##for i in range(0,len(li),1):
+##    print(li[i][::-1],end="")
+##
+##
 
 
 
 
+##a = {1,2,3,4,54}
+##
+##
+##b = frozenset(a)
+##
+##print(type(b))
+##
 
 
 
 
+##li = [(1,2),(2,3),(1,3)]
+##
+##
+##s = set(li)
+##
+##print(s)
 
 
 
 
+li =set{,}
 
+
+li1 = 5
+
+for i in range(li1):
+    a = int(input("enter"))
+    li.add(a)
+
+
+print(li)
 
 
 
