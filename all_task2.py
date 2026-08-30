@@ -109,34 +109,31 @@
 
 
 
-num = 212
-
-rev = 0
-
-no = num
-
-while no>0:
-    a = no%10
-    rev = rev*10+a
-##    print(rev)
-    no = no // 10
-
-
-if rev == num:
-    print("palindrome number")
-else:
-    print("not palindrome number")
-    
-
-
-
-
+##num = 212
+##
+##rev = 0
+##
+##no = num
+##
+##while no>0:
+##    a = no%10
+##    rev = rev*10+a
+####    print(rev)
+##    no = no // 10
+##
+##
+##if rev == num:
+##    print("palindrome number")
+##else:
+##    print("not palindrome number")
+##    
+##
+##
 
 
 
-
-
-
+for i in range(0,5,1):
+    print((2*i)-1,end=" ")
 
 
 
