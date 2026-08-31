@@ -132,10 +132,6 @@
 
 
 
-for i in range(0,5,1):
-    print((2*i)-1,end=" ")
-
-
 
 
 
