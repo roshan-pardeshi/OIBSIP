@@ -400,55 +400,54 @@
 
 
 
-class A:
-
-    def __init__(self,name,address,pincode,city):
-        self.name = name
-        self.address = address
-        self.pincode = pincode
-        self.city = city
-
-
-    def __str__(self):
-
-        return f"the name is a:--{self.name} address is a:--{self.address} pincode is a:--{self.pincode} the city is a{self.city}"
-
-
-
-print("1.Add the name \n2.remove the record")
-
-while True:
-    choice = int(input("enter your choice"))
-    match(choice):
-        case 1:
-            n = int(input("enter the number how many student you add:--"))
-
-            li=[]
-            for i in range(n):
-                a = A(input("enter the name:--"),input("enter the address:--"),int(input("enter the pincode:--")),input("enter the city name:--"))
-                li.append(a)
-
-
-            for i in li:
-                print(i)
-        case 2:
-            b = input("enter the name for remove the a student")
-            print(li)
-            li.pop()
-            
-            for i in li:
-                print(i)
-
-        case 3:
-            break
-
-        case _:
-            print("invalid choice")
-
-        
-
-for i in li:
-    print(i)
+##class A:
+##
+##    def __init__(self,name,address,pincode,city):
+##        self.name = name
+##        self.address = address
+##        self.pincode = pincode
+##        self.city = city
+##
+##
+##    def __str__(self):
+##
+##        return f"the name is a:--{self.name} address is a:--{self.address} pincode is a:--{self.pincode} the city is a{self.city}"
+##
+##
+##
+##print("1.Add the name \n2.remove the record")
+##
+##while True:
+##    choice = int(input("enter your choice"))
+##    match(choice):
+##        case 1:
+##            n = int(input("enter the number how many student you add:--"))
+##
+##            li=[]
+##            for i in range(n):
+##                a = A(input("enter the name:--"),input("enter the address:--"),int(input("enter the pincode:--")),input("enter the city name:--"))
+##                li.append(a)
+##
+##
+##            for i in li:
+##                print(i)
+##        case 2:
+##            b = input("enter the name for remove the a student")
+##            li.pop()
+##            
+##            for i in li:
+##                print(i)
+##
+##        case 3:
+##            break
+##
+##        case _:
+##            print("invalid choice")
+##
+##        
+##
+##for i in li:
+##    print(i)
 
 
 
